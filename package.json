@@ -1,0 +1,19 @@
+{
+  "name": "pa_core_logic",
+  "version": "1.0.0",
+  "description": "",
+  "main": "cloud_client.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.6.3"
+  },
+  "dependencies": {
+    "@sendgrid/mail": "^7.7.0",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.1"
+  }
+}
