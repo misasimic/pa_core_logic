@@ -1,21 +1,21 @@
 # pa_core_logic
 
-This is core demo app. Which will be used in another app running in the cloud.
-This "service" does not depend on concrete cloud provider.
+This is a core demo app. Code from here will be used in another app running in the cloud.
+This "service" does not depend on a concrete cloud provider.
 
-This is temporal demo app. Which just shows the coding style and architecture thoughts.
+This is a temporal demo app. Which just shows the coding style and architecture thoughts.
 
-In final app. this exactly the same code for folders _security_ and _sendGrid_ will be copied to the project and app will work.
+In the final app, exactly the same code for folders _security_ and _sendGrid_ will be copied to the project and app will work.
 
-Layer above this will generate HTML and using required methods from this app.
+The layer above this will generate HTML and use the required methods from this service.
 
-The main folder is security which has users.js file (The main file with core app logic)
+The main folder is security which has the users.js file (The main file with core app logic)
 
-"Users" apply repository pattern - and does not depend on concrete db.
+The code organization applies best practices and design patterns. for example it does not depend on concrete db.
 
 It asks from cloud_provider "getKeyValueStorage", our cloud client code will provide that service which then stores data in concrete DB.
 
-cloud folder simulates cloud env services and works locally.
+cloud folder simulates cloud services and works locally.
 
 
 It covers next functionalities:
